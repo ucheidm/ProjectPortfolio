@@ -1,12 +1,13 @@
-body {
-  font-family: "Poppins", sans-serif;
-  background: rgb(224, 196, 250);
+:root {
+  --body-font: "Poppins", sans-serif;
+  --body-color: rgb(224, 196, 250);
+  --spacing: 30px;
 }
 
-P {
+.paragrap-heading {
   font-family: "Poppins", sans-serif;
-  font-size: 36px;
-  padding-top: 180px;
+  font-size: 40px;
+  padding-top: 140px;
 
   font-weight: bolder;
 }
@@ -16,15 +17,39 @@ h1 {
   font-size: 96px;
 }
 
-h2 {
+.head h2 {
   font-style: italic;
+}
+.center {
+  text-align: center;
+  font-size: 40px;
 }
 
 .head {
   text-align: center;
+  background: var(--body-color);
+  font-family: var(--body-font);
 }
 .btn-primary {
   margin: 30px;
-  padding: 20px;
+  padding: 18px;
+  font-size: 18px;
+}
+.format-paragrah {
   font-size: 20px;
+  line-height: var(--spacing);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    color: blue;
+    padding: 0 50px;
+  }
+  .links {
+    display: block;
+    text-align: center;
+  }
 }
