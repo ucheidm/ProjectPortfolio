@@ -25,7 +25,10 @@
   font-size: 40px;
   font-weight: bold;
 }
-
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
 .head {
   text-align: center;
   background: var(--body-color);
