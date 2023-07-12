@@ -23,6 +23,7 @@
 .center {
   text-align: center;
   font-size: 40px;
+  font-weight: bold;
 }
 
 .head {
@@ -39,23 +40,30 @@
   font-size: 20px;
   line-height: var(--spacing);
 }
-.about-section {
+.page-content {
   padding: 100px 20px;
 }
-.about-section h1 {
+.page-content h1 {
   font-size: 64px;
   font-family: var(--body-font);
 }
-.about-section h2 {
+.page-content h2 {
   font-size: 30px;
 }
-
+.page-content h3 {
+  font-size: 24px;
+  font-family: var(--body-font);
+}
+.page-content p {
+  font-size: 16px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 46px;
   }
 
-  h2 {
+  h2,
+  h3 {
     color: blue;
   }
   .links {
@@ -65,7 +73,7 @@
   .center {
     padding-top: 0;
   }
-  .about-section {
+  .page-content {
     text-align: center;
     padding: 0;
   }
