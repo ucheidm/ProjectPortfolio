@@ -7,7 +7,7 @@
 .paragrap-heading {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  padding-top: 120px;
+  padding-top: 80px;
 
   font-weight: bolder;
 }
@@ -60,6 +60,27 @@ h3 {
 .page-content p {
   font-size: 16px;
 }
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+nav {
+  padding: 5px 0;
+}
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  /*color: blueviolet;*/
+}
+
+nav a:hover,
+nav a:active {
+  color: red;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 46px;
@@ -79,5 +100,13 @@ h3 {
   .page-content {
     text-align: center;
     padding: 0;
+  }
+  .logo {
+    width: 50px;
+  }
+
+  nav li {
+    font-size: 16px;
+    margin-left: 15px;
   }
 }
