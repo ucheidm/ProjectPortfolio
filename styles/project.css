@@ -74,13 +74,37 @@ nav {
 nav a {
   text-decoration: none;
   transition: all 100ms ease-in-out;
-  /*color: blueviolet;*/
+  color: blueviolet;
 }
-
 nav a:hover,
-nav a:active {
+nav .active {
   color: red;
 }
+
+.footer-contact {
+  background: rgb(215, 179, 249);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer-link {
+  font-size: 36px;
+  text-decoration: none;
+  color: black;
+}
+.footer-link:hover {
+  color: blueviolet;
+}
+
+.footer-social-media a {
+  font-size: 20px;
+  margin: 0 26px;
+}
+
+.footer-social-media a:hover {
+  color: white;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 46px;
