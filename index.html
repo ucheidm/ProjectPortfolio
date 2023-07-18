@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="stylesheet" href="styles/project.css" />
+    <link rel="stylesheet" href="/styles/project.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
@@ -38,12 +38,14 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.jpg" width="80px" class="logo rounded-circle" />
+        <a href="/"
+          ><img src="images/logo.jpg" width="80px" class="logo rounded-circle"
+        /></a>
         <ul>
-          <li><a href="/" class="active"> Home</a></li>
-          <li><a href="/about.html"> About</a></li>
-          <li><a href="/work.html"> Work</a></li>
-          <li><a href="/contact.html"> Contact</a></li>
+          <li><a href="/" class="active" title="homepage"> Home</a></li>
+          <li><a href="/about.html" title="about-page"> About</a></li>
+          <li><a href="/work.html" title="work-page"> Work</a></li>
+          <li><a href="/contact.html" title="contact-page"> Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -55,7 +57,7 @@
 
       <h1>Uche Okafor</h1>
       <h2>Your Best Ankara plug; based in Nigeria.</h2>
-      <a href="contact.html" class="btn btn-primary">Contact me</a>
+      <a href="/contact.html" class="btn btn-primary">Contact me</a>
     </div>
     <p class="mt-4 text-center fs-4">
       We are here to make you stand out and unique for that occation....
@@ -83,7 +85,7 @@
             popularised as one of the cheaper materials for clothing and
             accessories.
           </p>
-          <a href="#" class="btn btn-primary links">Learn More</a>
+          <a href="/work.html" class="btn btn-primary links">Learn More</a>
         </div>
       </div>
       <div class="row">
@@ -96,7 +98,7 @@
             Ankara referred to by different names, such as “kente cloth”,
             “african wax print”, “kitenge” or “ankara patterns”.
           </p>
-          <a href="#" class="btn btn-primary links">Learn More</a>
+          <a href="/work.html" class="btn btn-primary links">Learn More</a>
         </div>
         <div class="col-sm-6 mb-4">
           <img
@@ -125,7 +127,7 @@
             prints does not change compared to other printed textiles that fade
             quickly.
           </p>
-          <a href="#" class="btn btn-primary links">Learn More</a>
+          <a href="/work.html" class="btn btn-primary links">Learn More</a>
         </div>
       </div>
       <div class="container mb-5">
@@ -140,7 +142,9 @@
         </div>
 
         <footer class="text-center mt-5">
-          <a href="ucheidm@gmail.com" class="footer-link">ucheidm@gmail.com</a>
+          <a href="mailto:ucheidm@gmail.com" class="footer-link"
+            >ucheidm@gmail.com</a
+          >
           <div class="footer-social-media mt-5">
             <a href="www.facebook.com/okaforuche" target="_blank"
               ><i
@@ -158,6 +162,10 @@
               ><i class="fa-brands fa-github fa-2xl" style="color: #6f18f2"></i
             ></a>
           </div>
+          <p class="text-center mt-5">
+            This Website is coded by Uche , and it is
+            <a href="https://github.com/ucheidm">open-source</a>
+          </p>
         </footer>
       </div>
     </div>
